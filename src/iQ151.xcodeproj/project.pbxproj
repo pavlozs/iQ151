@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD1E9F3316066F3700C31453 /* cpu8080.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD1E9F3216066F3700C31453 /* cpu8080.cpp */; };
 		CDE3556416065F22002DCB4B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDE3556316065F22002DCB4B /* Cocoa.framework */; };
 		CDE3556E16065F22002DCB4B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CDE3556C16065F22002DCB4B /* InfoPlist.strings */; };
 		CDE3557116065F22002DCB4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE3557016065F22002DCB4B /* main.m */; };
 		CDE3557416065F22002DCB4B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CDE3557216065F22002DCB4B /* Credits.rtf */; };
-		CDE3557716065F22002DCB4B /* iQ151AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE3557616065F22002DCB4B /* iQ151AppDelegate.m */; };
+		CDE3557716065F22002DCB4B /* iQ151AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = CDE3557616065F22002DCB4B /* iQ151AppDelegate.mm */; };
 		CDE3557A16065F23002DCB4B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDE3557816065F23002DCB4B /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD1E9F3016066BBD00C31453 /* cpu8080.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpu8080.h; sourceTree = "<group>"; };
+		CD1E9F3216066F3700C31453 /* cpu8080.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cpu8080.cpp; sourceTree = "<group>"; };
 		CDE3555F16065F22002DCB4B /* iQ151.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iQ151.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDE3556316065F22002DCB4B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		CDE3556616065F22002DCB4B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -27,7 +30,7 @@
 		CDE3557016065F22002DCB4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CDE3557316065F22002DCB4B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		CDE3557516065F22002DCB4B /* iQ151AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iQ151AppDelegate.h; sourceTree = "<group>"; };
-		CDE3557616065F22002DCB4B /* iQ151AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iQ151AppDelegate.m; sourceTree = "<group>"; };
+		CDE3557616065F22002DCB4B /* iQ151AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = iQ151AppDelegate.mm; sourceTree = "<group>"; };
 		CDE3557916065F23002DCB4B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -43,6 +46,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD1E9F2D16066A8500C31453 /* cpu8080 */ = {
+			isa = PBXGroup;
+			children = (
+				CD1E9F3216066F3700C31453 /* cpu8080.cpp */,
+				CD1E9F3016066BBD00C31453 /* cpu8080.h */,
+			);
+			name = cpu8080;
+			sourceTree = "<group>";
+		};
 		CDE3555416065F22002DCB4B = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +94,7 @@
 		CDE3556916065F22002DCB4B /* iQ151 */ = {
 			isa = PBXGroup;
 			children = (
+				CD1E9F2D16066A8500C31453 /* cpu8080 */,
 				CDE3558816065F7E002DCB4B /* gui */,
 				CDE3556A16065F22002DCB4B /* Supporting Files */,
 			);
@@ -104,7 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				CDE3557516065F22002DCB4B /* iQ151AppDelegate.h */,
-				CDE3557616065F22002DCB4B /* iQ151AppDelegate.m */,
+				CDE3557616065F22002DCB4B /* iQ151AppDelegate.mm */,
 				CDE3557816065F23002DCB4B /* MainMenu.xib */,
 			);
 			name = gui;
@@ -174,7 +187,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDE3557116065F22002DCB4B /* main.m in Sources */,
-				CDE3557716065F22002DCB4B /* iQ151AppDelegate.m in Sources */,
+				CDE3557716065F22002DCB4B /* iQ151AppDelegate.mm in Sources */,
+				CD1E9F3316066F3700C31453 /* cpu8080.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
