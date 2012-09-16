@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDE3556416065F22002DCB4B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDE3556316065F22002DCB4B /* Cocoa.framework */; };
+		CDE3556E16065F22002DCB4B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CDE3556C16065F22002DCB4B /* InfoPlist.strings */; };
+		CDE3557116065F22002DCB4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE3557016065F22002DCB4B /* main.m */; };
+		CDE3557416065F22002DCB4B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CDE3557216065F22002DCB4B /* Credits.rtf */; };
+		CDE3557716065F22002DCB4B /* iQ151AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE3557616065F22002DCB4B /* iQ151AppDelegate.m */; };
+		CDE3557A16065F23002DCB4B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDE3557816065F23002DCB4B /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CDE3555F16065F22002DCB4B /* iQ151.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iQ151.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE3556316065F22002DCB4B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CDE3556616065F22002DCB4B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CDE3556716065F22002DCB4B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CDE3556816065F22002DCB4B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CDE3556B16065F22002DCB4B /* iQ151-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iQ151-Info.plist"; sourceTree = "<group>"; };
+		CDE3556D16065F22002DCB4B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CDE3556F16065F22002DCB4B /* iQ151-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iQ151-Prefix.pch"; sourceTree = "<group>"; };
+		CDE3557016065F22002DCB4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CDE3557316065F22002DCB4B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		CDE3557516065F22002DCB4B /* iQ151AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iQ151AppDelegate.h; sourceTree = "<group>"; };
+		CDE3557616065F22002DCB4B /* iQ151AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iQ151AppDelegate.m; sourceTree = "<group>"; };
+		CDE3557916065F23002DCB4B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDE3555C16065F22002DCB4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE3556416065F22002DCB4B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDE3555416065F22002DCB4B = {
+			isa = PBXGroup;
+			children = (
+				CDE3556916065F22002DCB4B /* iQ151 */,
+				CDE3556216065F22002DCB4B /* Frameworks */,
+				CDE3556016065F22002DCB4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDE3556016065F22002DCB4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDE3555F16065F22002DCB4B /* iQ151.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDE3556216065F22002DCB4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDE3556316065F22002DCB4B /* Cocoa.framework */,
+				CDE3556516065F22002DCB4B /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDE3556516065F22002DCB4B /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDE3556616065F22002DCB4B /* AppKit.framework */,
+				CDE3556716065F22002DCB4B /* CoreData.framework */,
+				CDE3556816065F22002DCB4B /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CDE3556916065F22002DCB4B /* iQ151 */ = {
+			isa = PBXGroup;
+			children = (
+				CDE3558816065F7E002DCB4B /* gui */,
+				CDE3556A16065F22002DCB4B /* Supporting Files */,
+			);
+			path = iQ151;
+			sourceTree = "<group>";
+		};
+		CDE3556A16065F22002DCB4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDE3556B16065F22002DCB4B /* iQ151-Info.plist */,
+				CDE3556C16065F22002DCB4B /* InfoPlist.strings */,
+				CDE3556F16065F22002DCB4B /* iQ151-Prefix.pch */,
+				CDE3557016065F22002DCB4B /* main.m */,
+				CDE3557216065F22002DCB4B /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDE3558816065F7E002DCB4B /* gui */ = {
+			isa = PBXGroup;
+			children = (
+				CDE3557516065F22002DCB4B /* iQ151AppDelegate.h */,
+				CDE3557616065F22002DCB4B /* iQ151AppDelegate.m */,
+				CDE3557816065F23002DCB4B /* MainMenu.xib */,
+			);
+			name = gui;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDE3555E16065F22002DCB4B /* iQ151 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDE3557D16065F23002DCB4B /* Build configuration list for PBXNativeTarget "iQ151" */;
+			buildPhases = (
+				CDE3555B16065F22002DCB4B /* Sources */,
+				CDE3555C16065F22002DCB4B /* Frameworks */,
+				CDE3555D16065F22002DCB4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iQ151;
+			productName = iQ151;
+			productReference = CDE3555F16065F22002DCB4B /* iQ151.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDE3555616065F22002DCB4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = PDS;
+			};
+			buildConfigurationList = CDE3555916065F22002DCB4B /* Build configuration list for PBXProject "iQ151" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CDE3555416065F22002DCB4B;
+			productRefGroup = CDE3556016065F22002DCB4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDE3555E16065F22002DCB4B /* iQ151 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDE3555D16065F22002DCB4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE3556E16065F22002DCB4B /* InfoPlist.strings in Resources */,
+				CDE3557416065F22002DCB4B /* Credits.rtf in Resources */,
+				CDE3557A16065F23002DCB4B /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDE3555B16065F22002DCB4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE3557116065F22002DCB4B /* main.m in Sources */,
+				CDE3557716065F22002DCB4B /* iQ151AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CDE3556C16065F22002DCB4B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDE3556D16065F22002DCB4B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CDE3557216065F22002DCB4B /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDE3557316065F22002DCB4B /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		CDE3557816065F23002DCB4B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDE3557916065F23002DCB4B /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDE3557B16065F23002DCB4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CDE3557C16065F23002DCB4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CDE3557E16065F23002DCB4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iQ151/iQ151-Prefix.pch";
+				INFOPLIST_FILE = "iQ151/iQ151-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CDE3557F16065F23002DCB4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iQ151/iQ151-Prefix.pch";
+				INFOPLIST_FILE = "iQ151/iQ151-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDE3555916065F22002DCB4B /* Build configuration list for PBXProject "iQ151" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE3557B16065F23002DCB4B /* Debug */,
+				CDE3557C16065F23002DCB4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDE3557D16065F23002DCB4B /* Build configuration list for PBXNativeTarget "iQ151" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE3557E16065F23002DCB4B /* Debug */,
+				CDE3557F16065F23002DCB4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDE3555616065F22002DCB4B /* Project object */;
+}
